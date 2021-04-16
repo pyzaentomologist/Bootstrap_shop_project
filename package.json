@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "npx webpack serve --inline --progress --color",
+    "start": "npx webpack serve --inline --progress --color --host 0.0.0.0",
     "build": "webpack"
   },
   "keywords": [
